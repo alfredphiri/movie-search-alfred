@@ -146,10 +146,13 @@ p {
   line-height: 1.6;
   color: #ffffff;
 }
-.leftFooter a {
+footer a {
+  color: white;
+}
+.leftFooter i a {
   background-color: transparent;
 }
-.leftFooter a:hover{
+.leftFooter i a:hover{
  text-shadow: 0 0 5px #ffffff;
 
 }
@@ -197,7 +200,8 @@ p {
     gap: 2rem;
     padding: 40px 20px;
   }
-  
+
+
   .navbtn {
     display: block;
   }

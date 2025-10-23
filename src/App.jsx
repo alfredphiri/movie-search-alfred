@@ -61,10 +61,10 @@ function App() {
         </div>
         <p>&copy; 2025 Alfred TV. All Rights Reserved</p>
         <div className="socials">
-          <i className='fab fa-facebook'></i>
-          <i className='fab fa-twitter'></i>
-          <i className='fab fa-instagram'></i>
-          <i className='fab fa-linkedin'></i>
+          <a href="https://www.facebook.com/alfredjbphiri"><i className='fab fa-facebook'></i></a>
+          <a href="https://twitter.com/chisobytes"><i className='fab fa-x-twitter'></i></a>
+          <a href=""><i className='fab fa-instagram'></i></a>
+          <a href="https://linkedin.com/in/alfredbandulo"><i className='fab fa-linkedin'></i></a>
         </div>
       </footer>
     </>
