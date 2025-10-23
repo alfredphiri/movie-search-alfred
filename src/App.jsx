@@ -13,8 +13,10 @@ function App() {
           <div className="center-header">
             <a href="#">Hollywood</a>
             <a href="#">Nollywood</a>
-            <a href="#">Malawian Movies</a>
-            <a href="#">My Favourites</a>
+            <a href="#">Popular</a>
+            <a href="#">Recommended</a>
+            <a href="#">My List</a>
+            <a href="#"></a>
           </div>
 
           <div className="header-btns">
@@ -36,12 +38,34 @@ function App() {
         </div>
         <div className="details">
           <h1 className="hero-title">Find Movies That Suit You</h1>
-          <a href="#" className="watchMoreBtn">Watch More <i class="fa-solid fa-arrow-right arrow"></i></a>
+          <a href="" className="watchMoreBtn">Watch More <i class="fa-solid fa-arrow-right arrow"></i></a>
         </div>
       </div>
 
-      <footer className="footer">
-        <p>&copy; 2025 Alfred TV. Designed by alfred</p>
+      <footer style={{
+        display : 'flex',
+        justifyContent : 'space-around',
+        alignItems : 'center',
+        color : 'white',
+        padding : '20px',
+        backgroundColor : '#0d89c3'
+      }} className="footer">
+        <div className='leftFooter' style={{
+          display : 'flex',
+          gap : '20px'
+        
+        }}>
+          <a style={{color : 'white'}} href="#">Terms and Conditions</a>
+          <a style={{color : 'white'}} href="#">About Us</a>
+          <a style={{color : 'white'}} href="#">Contact Us</a>
+        </div>
+        <p>&copy; 2025 Alfred TV. All Rights Reserved</p>
+        <div className="socials">
+          <i className='fab fa-facebook'></i>
+          <i className='fab fa-twitter'></i>
+          <i className='fab fa-instagram'></i>
+          <i className='fab fa-linkedin'></i>
+        </div>
       </footer>
     </>
   );
