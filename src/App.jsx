@@ -36,7 +36,7 @@ function App() {
         </div>
         <div className="details">
           <h1 className="hero-title">Find Movies That Suit You</h1>
-          <a href="#" className="watchMoreBtn">Watch More <i class="fa-solid fa-arrow-right"></i></a>
+          <a href="#" className="watchMoreBtn">Watch More <i class="fa-solid fa-arrow-right arrow"></i></a>
         </div>
       </div>
 

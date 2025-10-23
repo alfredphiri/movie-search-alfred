@@ -7,7 +7,7 @@ html {
 }
 
 body {
-  background: #0f1720;
+  background: #17283a;
   min-height: 100vh;
 }
 
@@ -51,33 +51,42 @@ header a {
 
 header .center-header a {
   margin: 5px;
-  color: white;
+  color: rgb(255, 255, 255);
   font-weight: 600;
-  background-color: #0d89c3;
+  background-color: #26719400;
   padding: 10px 20px;
-  border-radius: 5px;
+  border-radius: 25px;
+  transition: text-shadow 0.3s ease;
+}
+
+header .center-header a:hover {
+  text-shadow: 0 0 5px #ffffff;
 }
 
 .center-header {
-  border: solid #0976a9 1px;
-  padding: 11px;
-  border-radius: 25px;
+  border: solid #ffffff 3px;
+  padding: 10px;
+  border-radius: 35px;
 }
- .navbtn {
-    display: none;
-  }
-  
-.header-btns a{
+
+.navbtn {
+  display: none;
+}
+
+.header-btns a {
   background-color: #0976a9;
   padding: 10px 20px;
   border-radius: 5px;
+  border-radius: 25px;
   color: white;
   font-weight: 600;
   transition: background-color 0.3s ease;
 }
 
 .header-btns a:hover {
-  background-color: #0d89c3;
+  background-color: #ffffff;
+  color: black;
+  cursor: pointer;
 }
 
 
@@ -106,7 +115,6 @@ header .center-header a {
 .image {
   width: 100%;
   max-width: 600px;
-  flex: 1;
   border-radius: 16px;
   background-color: transparent;
 }
@@ -129,27 +137,27 @@ header .center-header a {
 h1 {
   color: #ffffff;
   font-weight: 800;
-  font-size: clamp(1.5rem, 5vw, 3rem);
   margin: 1rem 0;
 }
 
 p {
-  font-size: clamp(0.875rem, 2.5vw, 1rem);
   line-height: 1.6;
   color: #ffffff;
 }
 
 
 .watchMoreBtn {
-  padding: 12px 28px;
-  font-size: clamp(0.875rem, 2vw, 1rem);
-  background: #0ea5e9;
+  padding: 10px 30px;
   color: #ffffff;
+  background: #0ea5e9;
   border: none;
   border-radius: 25px;
   cursor: pointer;
   font-weight: 600;
-  transition: all 0.3s ease;
+  transition: all 0.4s linear;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .watchMoreBtn:hover,
@@ -158,15 +166,21 @@ a:hover {
   color: #ffffff;
 }
 
+.arrow {
+  margin: 2px 0 0 10px;
+}
+
 @media (max-width: 1100px) {
   .middle {
     flex-direction: column-reverse;
     gap: 2rem;
     padding: 40px 20px;
   }
+
   .navbtn {
     display: block;
   }
+
   .center-header {
     display: none;
   }
@@ -174,8 +188,9 @@ a:hover {
   .header-btns {
     display: none;
   }
-  
-  .details, .image {
+
+  .details,
+  .image {
     width: 100%;
     max-width: 500px;
   }
