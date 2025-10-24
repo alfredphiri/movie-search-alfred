@@ -65,9 +65,11 @@ This project is licensed under University Of Livingstonia
 - GitHub: [@yourgithub](https://github.com/alfredjbphiri)
 - LinkedIn: [Your LinkedIn](https://linkedin.com/in/alfredbandulo)
 
-## 🙏 Acknowledgments
+## 🙏 Acknowledgment
 
-- [@callmeCPU404]
+This assignment was developed in fulfillment of course requirements  
+taught by [@callmeCPU404](https://github.com/callmeCPU404).
 
 ---
-by Alfred Phiri 
+
+by Alfred Phiri
