@@ -50,6 +50,12 @@ function App() {
         padding : '20px',
         backgroundColor : '#0d89c3'
       }} className="footer">
+         <div className="socials">
+          <a href="https://www.facebook.com/alfredjbphiri"><i className='fab fa-facebook'></i></a>
+          <a href="https://twitter.com/chisobytes"><i className='fab fa-x-twitter'></i></a>
+          <a href=""><i className='fab fa-instagram'></i></a>
+          <a href="https://linkedin.com/in/alfredbandulo"><i className='fab fa-linkedin'></i></a>
+        </div>
         <div className='leftFooter' style={{
           display : 'flex',
           gap : '20px'
@@ -60,12 +66,7 @@ function App() {
           <a style={{color : 'white'}} href="#">Contact Us</a>
         </div>
         <p>&copy; 2025 Alfred TV. All Rights Reserved</p>
-        <div className="socials">
-          <a href="https://www.facebook.com/alfredjbphiri"><i className='fab fa-facebook'></i></a>
-          <a href="https://twitter.com/chisobytes"><i className='fab fa-x-twitter'></i></a>
-          <a href=""><i className='fab fa-instagram'></i></a>
-          <a href="https://linkedin.com/in/alfredbandulo"><i className='fab fa-linkedin'></i></a>
-        </div>
+       
       </footer>
     </>
   );
