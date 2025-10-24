@@ -71,5 +71,14 @@ This assignment was developed in fulfillment of course requirements
 taught by [@callmeCPU404](https://github.com/callmeCPU404).
 
 ---
+## 🌐 Internet Connection Required
 
-by Alfred Phiri
+This project uses external resources:
+- [Google Fonts](https://fonts.google.com/)
+- [Font Awesome](https://fontawesome.com/)
+
+An active internet connection is required to load these assets properly.  
+Offline usage may result in missing icons or fallback fonts.
+---
+
+#by Alfred Phiri
