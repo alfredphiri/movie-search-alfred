@@ -20,7 +20,7 @@ A modern movie site application built with React and Vite that allows users to d
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/movie-search-alfred.git
+git clone https://github.com/alfredphiri/movie-search-alfred.git
 ```
 
 2. Navigate to the project directory:
