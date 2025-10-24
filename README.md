@@ -1,18 +1,73 @@
-# Alfred Phiri Assignment 1  Web Programming
+# Alfred Tv
 
-# React + Vite
+A modern movie site application built with React and Vite that allows users to discover and explore movies.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Features
 
-Currently, two official plugins are available:
+- Modern and responsive user interface
+- Movie search functionality
+- Movie details view
+- Categorized movie browsing
+- Live streaming indication
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Technologies Used
 
-## React Compiler
+- React 18
+- Vite
+- CSS3
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📦 Installation
 
-## Expanding the ESLint configuration
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/movie-search-alfred.git
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2. Navigate to the project directory:
+```bash
+cd movie-search-alfred
+```
+
+3. Install dependencies:
+```bash
+npm install
+```
+
+4. Start the development server:
+```bash
+npm run dev
+```
+
+The application will be available at `http://localhost:5173`
+
+
+## 🎯 Project Structure
+
+```
+movie-search-alfred/
+├── src/
+│   ├── components/
+│   ├── assets/
+│   ├── styles/
+│   ├── App.jsx
+│   └── main.jsx
+└── [other configuration files]
+```
+
+## 📝 License
+
+This project is licensed under University Of Livingstonia
+
+## 👤 Author
+
+**Alfred Phiri**
+
+- GitHub: [@yourgithub](https://github.com/alfredjbphiri)
+- LinkedIn: [Your LinkedIn](https://linkedin.com/in/alfredbandulo)
+
+## 🙏 Acknowledgments
+
+- [@callmeCPU404]
+
+---
+by Alfred Phiri 

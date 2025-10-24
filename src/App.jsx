@@ -53,7 +53,7 @@ function App() {
          <div className="socials">
           <a href="https://www.facebook.com/alfredjbphiri"><i className='fab fa-facebook'></i></a>
           <a href="https://twitter.com/chisobytes"><i className='fab fa-x-twitter'></i></a>
-          <a href=""><i className='fab fa-instagram'></i></a>
+          <a href="#"><i className='fab fa-instagram'></i></a>
           <a href="https://linkedin.com/in/alfredbandulo"><i className='fab fa-linkedin'></i></a>
         </div>
         <div className='leftFooter' style={{
