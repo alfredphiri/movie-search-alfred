@@ -16,7 +16,7 @@ function App() {
             <a href="#">Popular</a>
             <a href="#">Recommended</a>
             <a href="#">My List</a>
-            <a href="#"></a>
+      
           </div>
 
           <div className="header-btns">

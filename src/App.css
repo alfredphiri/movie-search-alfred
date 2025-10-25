@@ -41,20 +41,15 @@ a {
 
 
 header a {
-  padding: 8px 16px;
-  margin: 5px;
-  border-radius: 20px;
   border: none;
-  font-weight: 600;
-  font-size: clamp(0.875rem, 2vw, 1rem);
 }
 
 header .center-header a {
-  margin: 5px;
+  margin: 2px;
   color: rgb(255, 255, 255);
   font-weight: 600;
   background-color: #26719400;
-  padding: 10px 20px;
+  padding: 7px 15px;
   border-radius: 25px;
   transition: text-shadow 0.3s ease;
 }
@@ -65,7 +60,7 @@ header .center-header a:hover {
 
 .center-header {
   border: solid #ffffff 3px;
-  padding: 10px;
+  padding: 8px;
   border-radius: 35px;
 }
 
@@ -76,7 +71,7 @@ header .center-header a:hover {
 .header-btns a {
   background-color: #0976a9;
   padding: 10px 20px;
-  border-radius: 5px;
+  margin: 4px;
   border-radius: 25px;
   color: white;
   font-weight: 600;
@@ -201,6 +196,9 @@ footer a {
     padding: 40px 20px;
   }
 
+  .logo{
+    font-size:1rem ;
+  }
 
   .navbtn {
     display: block;
@@ -234,9 +232,16 @@ footer a {
     gap: 20px;
   }
 }
+@media (max-width: 1200px) {
+  .center-header a {
+  font-size: 0.9rem;
+  }
+  .header-btns a {
+    font-size: 0.9rem;
+}
 
-
-@media (max-width: 768px) {
+}
+@media (max-width: 750px) {
   .middle {
     padding: 30px 15px;
     gap: 1.5rem;
