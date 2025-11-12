@@ -62,8 +62,8 @@ This project is licensed under University Of Livingstonia
 
 **Alfred Phiri**
 
-- GitHub: [@yourgithub](https://github.com/alfredjbphiri)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/alfredbandulo)
+- GitHub: [@alfredphiri](https://github.com/alfredjbphiri)
+- LinkedIn: [alfred phiri](https://linkedin.com/in/alfredbandulo)
 
 ## 🙏 Acknowledgment
 
