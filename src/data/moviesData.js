@@ -4,7 +4,7 @@ export const moviesData = {
         
         {
         adult: false,
-        backdrop_path: "./",
+        backdrop_path: "/public/poster1.jpg",
         genre_ids: [18, 27, 14],
         id: 1,
         original_language: "en",
@@ -12,7 +12,7 @@ export const moviesData = {
         overview:
             "A scientist accidentally opens a portal to a world of shadow monsters, causing chaos across the city.",
         popularity: 512.42,
-        poster_path: "#",
+        poster_path: "/public/poster1.jpg",
         release_date: '2025-08-10',
         title: "Shadow Creatures",
         video: false,
@@ -22,14 +22,14 @@ export const moviesData = {
 
     {
         adult: false,
-        backdrop_path: "#",
+        backdrop_path: "/public/poster2.jpg",
         genre_ids: "[28,35,10751]",
         id: 2,
         original_language: "en",
         original_title: "Dad Patrol",
         overview: "Two fathers uncover a secret agency while searching for their kids' stolen bicycles.",
         popularity: 300.3,
-        poster_path: "#",
+        poster_path: "/public/poster2.jpg",
         release_date: " 2025-11-05",
         title: "Dad Patrol",
         video: "false",
@@ -39,7 +39,7 @@ export const moviesData = {
 
     {
         adult: false,
-        backdrop_path: "#",
+        backdrop_path: "/public/poster3.jpg",
         genre_ids: [28, 878, 12],
         id: 3,
         original_language: "en",
@@ -56,7 +56,7 @@ export const moviesData = {
 
     {
         adult: false,
-        backdrop_path: "#",
+        backdrop_path: "/public/poster4.jpg",
         genre_ids: [28, 53, 801],
         id: 4,
         original_language: "en",
@@ -64,7 +64,7 @@ export const moviesData = {
         overview:
             "A former detective goes undercover to infiltrate a criminal syndicate that controls the city.",
         popularity: 290.55,
-        poster_path: "#",
+        poster_path: "/public/poster4.jpg",
         release_date: "2025-09-23",
         title: " Undercover Streets",
         video: false,

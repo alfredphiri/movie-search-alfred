@@ -185,6 +185,17 @@ footer a {
   box-shadow: 0 0 50px #0ea5e9;
 }
 
+.movie-action-btn {
+  font-weight: 600;
+  transition: all 0.1s linear;
+}
+
+.movie-action-btn:hover {
+  background: #ffffff !important;
+  color: #000000 !important;
+  box-shadow: 0 0 50px #0ea5e9;
+}
+
 .arrow {
   margin: 2px 0 0 10px;
 }
