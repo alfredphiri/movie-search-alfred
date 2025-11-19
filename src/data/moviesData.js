@@ -4,7 +4,7 @@ export const moviesData = {
         
         {
         adult: false,
-        backdrop_path: "#",
+        backdrop_path: "./",
         genre_ids: [18, 27, 14],
         id: 1,
         original_language: "en",
