@@ -39,6 +39,23 @@ function PageCards() {
                             Sign Up <i className="fa-solid fa-user-plus"></i>
                         </a>
                     </div>
+                    <div
+                        className="search-trigger"
+                        style={{
+                            width: '42px',
+                            height: '42px',
+                            borderRadius: '50%',
+                            border: '1px solid #0d89c3',
+                            display: 'flex',
+                            alignItems: 'center',
+                            justifyContent: 'center',
+                            color: '#fff',
+                            cursor: 'pointer',
+                            transition: 'background 0.2s ease'
+                        }}
+                    >
+                        <i className="fa-solid fa-magnifying-glass"></i>
+                    </div>
 
                     <div className="navbtn" style={{}}>
                         <span
@@ -80,55 +97,6 @@ function PageCards() {
           alignItems: 'center',
           padding: '40px 20px'
         }}>
-                <section
-                 style={{
-            width: '100%',
-            maxWidth: '900px',
-            marginBottom: '30px',
-            display: 'flex',
-            flexDirection: 'column',
-            gap: '16px'
-          }}>
-              <div>
-            <h1 style={{ marginBottom: '8px' }}>Popular Movies</h1>
-            <p>Browse our curated list or search for your favorite title.</p>
-          </div>
-
-           <form
-            style={{
-              display: 'flex',
-              gap: '12px'
-            }}
-      
-          >
-            <input
-              type="text"
-              placeholder="Search for a movie"
-              style={{
-                flex: 1,
-                padding: '12px 16px',
-                borderRadius: '30px',
-                border: 'none',
-                fontSize: '1rem'
-              }}
-            />
-            <button
-              type="submit"
-              style={{
-                padding: '12px 24px',
-                borderRadius: '30px',
-                border: 'none',
-                backgroundColor: '#0d89c3',
-                color: 'white',
-                cursor: 'pointer',
-                fontSize: '1rem'
-              }}
-            >
-              Search
-            </button>
-             </form>
-
-                </section>
 
                 <div
           style={{
