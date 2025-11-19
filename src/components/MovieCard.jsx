@@ -51,7 +51,15 @@ const releaseYear = movie.release_date ? new Date(movie.release_date).getFullYea
                 color: '#ccc',
                 width: '100%',
                 textAlign: 'left'
-            }}>{releaseYear}</p>
+            }}>Release Year: {releaseYear}</p>
+             <p style={{
+                margin: '4px 0',
+                fontSize: '0.85rem',
+                color: '#0d89c3',
+                width: '100%',
+                textAlign: 'left',
+                fontWeight: 600
+            }}>Popularity: {movie.popularity}</p>
 
 
 
@@ -63,6 +71,8 @@ const releaseYear = movie.release_date ? new Date(movie.release_date).getFullYea
                 textAlign: 'left',
                 minHeight: '48px'
             }}>{ShortenedOverview(movie.overview)}</p>
+
+           
 
             <div style={{
                 display: 'flex',

@@ -17,11 +17,9 @@ function App() {
               </div>
 
               <div className="center-header">
+                <Link to="/">Home</Link>
                 <Link to="/">Hollywood</Link>
-                <Link to="/">Nollywood</Link>
                 <Link to="/movie-cards">Popular</Link>
-                <Link to="/">Recommended</Link>
-                <Link to="/">My List</Link>
               </div>
 
               <div className="header-btns">
