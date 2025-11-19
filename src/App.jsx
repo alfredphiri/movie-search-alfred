@@ -1,13 +1,16 @@
 import './App.css';
 import { Routes, Route, Link } from 'react-router-dom';
+import PageCards from './page/pagecards.jsx';
 const movieImage = './src/assets/moviebg.jpg';
-// const { FontAwesomeIcon } = require('@fortawesome/react-fontawesome');
+
 function App() {
   return (
     <Routes>
-      <Route>
-        <>
-          <header>
+      <Route
+        path="/"
+        element={
+          <>
+            <header>
             <div className='header'>
               <div className="left-header">
                 <h1 className="logo">alfred <span id='tv'>TV</span></h1>
@@ -69,9 +72,11 @@ function App() {
             </div>
             <p>&copy; 2025 Alfred TV. All Rights Reserved</p>
 
-          </footer>
-        </>
-      </Route>
+            </footer>
+          </>
+        }
+      />
+      <Route path="/movie-cards" element={<PageCards />} />
 
     </Routes>
 

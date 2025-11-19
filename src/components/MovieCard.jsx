@@ -1,8 +1,8 @@
 import React from 'react';
-const releaseYear = movie.release_date ? new Date(movie.release_date).getFullYear() : 'n/a';
+
 
 function MovieCard({ movie }) {
-
+const releaseYear = movie.release_date ? new Date(movie.release_date).getFullYear() : 'n/a';
     const ShortenedOverview = (overview, maxLength = 80) => {
         if (overview.length <= maxLength) {
             return overview;

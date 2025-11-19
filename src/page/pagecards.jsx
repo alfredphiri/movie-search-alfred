@@ -1,7 +1,7 @@
-import react from 'react';
+import React from 'react';
 import MovieCard from '../components/MovieCard.jsx';
 import { Link } from 'react-router-dom';
-import { MoviesData } from '../data/MoviesData.js';
+import { moviesData } from '../data/moviesData.js';
 
 
 function PageCards() {
@@ -19,7 +19,7 @@ function PageCards() {
                     <div className="left-header">
                         <h1 className='logo'>
                             alfred
-                            <span id='tv'><TV></TV></span>
+                            <span id='tv'>TV</span>
                         </h1>
                     </div>
 
@@ -211,3 +211,5 @@ function PageCards() {
     );
 
 }
+
+export default PageCards;
